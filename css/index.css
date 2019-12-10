@@ -1,3 +1,699 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    : 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    -collapse: collapse;
+    -spacing: 0;
+}
+
+
+/* Set every element's box-sizing to -box */
+
+* {
+    box-sizing: -box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+
+* {
+    box-sizing: -box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here*/
+
+.containerone {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.one {
+    display: flex;
+    width: 85%;
+    justify-content: flex-end;
+}
+
+.two {
+    width: 17%;
+    justify-content: right;
+}
+
+
+/* above is the flex container foe the nav*/
+
+h2 {
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.mainPara {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.one,
+.two,
+nav,
+a {
+    text-align: center
+}
+
+nav {
+    background: #3369ff;
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    : black;
+    -style: ridge;
+    animation: colors 3s infinite;
+    display: flex;
+    justify-content: space-between;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #74E8E8;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: rgb(49, 204, 18);
+    }
+}
+
+a {
+    color: white;
+}
+
+
+/*Reg CSS code for nav above*/
+
+.containertwo {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 10px;
+    text-align: center;
+}
+
+.three {
+    width: 32.5%;
+}
+
+.four {
+    height: 420px;
+    width: 32.5%;
+}
+
+button {
+    background-color: #3369ff;
+    width: 50%;
+    : 1px black;
+    -radius: 10%;
+    box-sizing: -box;
+    text-decoration: none;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    box-shadow: inset -0.6em 1em -0.35 black;
+    text-align: center;
+    position: relative;
+}
+
+button:hover {
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Main photo and header*/
+
+.containerthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1%;
+}
+
+.five {
+    width: 32.5%;
+}
+
+.six {
+    width: 32.5%;
+}
+
+
+/* Top half of main content above*/
+
+.containerfour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5%;
+}
+
+.middle-img {
+    width: 67%;
+}
+
+
+/*middle pic above*/
+
+.containerfive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eight {
+    width: 22%;
+}
+
+.nine {
+    width: 22%;
+}
+
+.ten {
+    width: 21%;
+}
+
+
+/*lower half content above*/
+
+.containersix {
+    display: flex;
+    justify-content: flex-end;
+    width: 27%;
+    : soild 3pc red;
+}
+
+.eleven {
+    text-align: center;
+    : soild 3px green;
+}
+
+footer {
+    text-align: center;
+    margin-left: 89px;
+    background: #3369ff;
+    : black;
+    -style: ridge;
+    animation: colors 3s infinite;
+    width: 91.1%;
+}
+
+@keyframes colors {
+    0% {
+        background-color: #74E8E8;
+    }
+    50% {
+        background-color: grey;
+    }
+    100% {
+        background-color: rgb(49, 204, 18);
+    }
+}
+
+hr {
+    margin: 3% 10%;
+}
+
+
+/* My media quries START below*/
+
+@media (max-width: 500px) {
+    .containerone {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        : 3px red;
+        width: 90%;
+        height: 60%;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2% 10%;
+        : 5px yellow;
+        width: 90%;
+        height: auto;
+    }
+}
+
+@media(max-width: 500px) {
+    .one {
+        : 3px green;
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .two {
+        width: 70%;
+    }
+}
+
+@media (max-width: 500px) {
+    .three {
+        : 3px yellow;
+        width: 90%;
+        font-size: 20px;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .four {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerthree {
+        : 3px red;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .five {
+        : 3px green;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+        margin: 5% 0;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .six {
+        : 3px green;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerfour {
+        : 3px green;
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .middle-img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerfive {
+        : 3px blue;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .nine {
+        : 3px red;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+        margin: 5% 0;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .eight {
+        : 3px yellow;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+        margin: 5% 0;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .ten {
+        : 3px green;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 100%;
+        margin: 5% 0;
+        padding: 3%;
+    }
+}
+
+@media (max-width: 500px) {
+    .containersix {
+        : 3px green;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+        margin: 5% 0;
+        padding: 3%;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        : 3px green;
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        width: 90%;
+        margin: 5% 0;
+        padding: 3%;
+        margin-left: 5%;
+        text-align: center;
+    }
+}
+
+
+/*media at 800px*/
+
+@media (max-width: 800px) {
+    .containerone {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    nav {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .two {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .containertwo {
+        width: 93.5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .three {
+        width: 70%;
+    }
+}
+
+@media (max-width: 800px) {
+    .four {
+        display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerthree {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 800px) {
+    .five {
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .six {
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerfour {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .middle-img {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerfive {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .eight {
+        width: 30%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .nine {
+        width: 30%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .ten {
+        width: 30%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px) {
+    hr {
+        margin: 0 1% 0 1%;
+    }
+}
