@@ -63,53 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
-.containerone{
-	display: flex;
-	justify-content: center;
-    width:100%;
-}
+/* Your co
 
 
-.one{
-	display:flex;
-	width: 82.1%;
-    justify-content:center;
-}
-
-.two{
-	width:15.9%;
-    justify-content: right;
-}
-
-.one, .two, nav, a{
-	text-align:center
-}
-
-
-
-nav{
-	background: #3369ff;
-	width: 90%;
-	height: 30px;
-	padding: 5px;
-	border: solid 2px black;
-	border-style: ridge;
-	animation: colors 3s infinite;
-	display:flex;
-    justify-content: space-between;
-    margin: 10px;
-}
-
-@keyframes colors{
-	0%{background-color: #74E8E8;}
-	50%{background-color: grey;}
-	100%{background-color: rgb(49, 204, 18);}
-}
-
-a{
-    color: white;
-}
 
 /* Nav bar styles above*/
 
