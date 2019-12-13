@@ -89,7 +89,6 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    : 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
@@ -202,7 +201,6 @@ h5 {
 
 .two {
     width: 17%;
-    justify-content: right;
 }
 
 
@@ -221,7 +219,10 @@ h2 {
 .two,
 nav,
 a {
-    text-align: center
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5%;
 }
 
 nav {
@@ -229,8 +230,8 @@ nav {
     width: 90%;
     height: 30px;
     padding: 5px;
-    : black;
-    -style: ridge;
+    border: solid 5px black;
+    border-style: groove;    
     animation: colors 3s infinite;
     display: flex;
     justify-content: space-between;
@@ -269,20 +270,13 @@ h1 {
     text-align: center;
 }
 
-.three {
-    width: 32.5%;
-}
 
-.four {
-    height: 420px;
-    width: 32.5%;
-}
 
 button {
     background-color: #3369ff;
     width: 50%;
-    : 1px black;
-    -radius: 10%;
+    border: solid 2px black;
+    border-radius: 10px;
     box-sizing: -box;
     text-decoration: none;
     font-family: 'roboto', sans-serif;
@@ -320,13 +314,25 @@ button:hover {
     width: 100%;
     margin: 1%;
 }
-
-.five {
+.three {
     width: 32.5%;
 }
 
-.six {
+.four {
+    height: 420px;
     width: 32.5%;
+ 
+    text-align: center;
+}
+
+.five {
+    width: 30%;
+    text-align: center;
+}
+
+.six {
+    width: 30%;
+    text-align: center;
 }
 
 
@@ -354,14 +360,17 @@ button:hover {
 
 .eight {
     width: 22%;
+    text-align: center;
 }
 
 .nine {
     width: 22%;
+    text-align: center;
 }
 
 .ten {
     width: 21%;
+    text-align: center;
 }
 
 
@@ -371,22 +380,21 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     width: 27%;
-    : soild 3pc red;
 }
 
 .eleven {
     text-align: center;
-    : soild 3px green;
 }
 
 footer {
     text-align: center;
     margin-left: 89px;
     background: #3369ff;
-    : black;
-    -style: ridge;
     animation: colors 3s infinite;
     width: 91.1%;
+    border: solid 5px black;
+    border-style: groove;
+    margin-top: 3%;
 }
 
 @keyframes colors {
@@ -414,7 +422,6 @@ hr {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
-        : 3px red;
         width: 90%;
         height: 60%;
     }
@@ -426,7 +433,6 @@ hr {
         flex-direction: column;
         justify-content: space-around;
         padding: 2% 10%;
-        : 5px yellow;
         width: 90%;
         height: auto;
     }
@@ -434,7 +440,6 @@ hr {
 
 @media(max-width: 500px) {
     .one {
-        : 3px green;
         display: flex;
         justify-content: space-around;
         height: 100%;
@@ -449,7 +454,6 @@ hr {
 
 @media (max-width: 500px) {
     .three {
-        : 3px yellow;
         width: 90%;
         font-size: 20px;
         margin-right: 10%;
@@ -464,7 +468,6 @@ hr {
 
 @media (max-width: 500px) {
     .containerthree {
-        : 3px red;
         display: flex;
         flex-direction: column;
         width: 90%;
@@ -475,7 +478,7 @@ hr {
 
 @media (max-width: 500px) {
     .five {
-        : 3px green;
+    
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -487,7 +490,6 @@ hr {
 
 @media (max-width: 500px) {
     .six {
-        : 3px green;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -497,7 +499,6 @@ hr {
 
 @media (max-width: 500px) {
     .containerfour {
-        : 3px green;
         width: 90%;
         margin-left: 5%;
     }
@@ -511,7 +512,6 @@ hr {
 
 @media (max-width: 500px) {
     .containerfive {
-        : 3px blue;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -523,7 +523,6 @@ hr {
 
 @media (max-width: 500px) {
     .nine {
-        : 3px red;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -535,7 +534,6 @@ hr {
 
 @media (max-width: 500px) {
     .eight {
-        : 3px yellow;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -547,7 +545,6 @@ hr {
 
 @media (max-width: 500px) {
     .ten {
-        : 3px green;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -559,7 +556,6 @@ hr {
 
 @media (max-width: 500px) {
     .containersix {
-        : 3px green;
         display: flex;
         flex-direction: column;
         font-size: 15px;
@@ -573,7 +569,6 @@ hr {
 
 @media (max-width: 500px) {
     footer {
-        : 3px green;
         display: flex;
         flex-direction: column;
         font-size: 15px;
