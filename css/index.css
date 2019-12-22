@@ -199,7 +199,7 @@ h5 {
 
 .two {
     width: 13%;
-    border: solid 2px blue;
+    margin-right: 2%;
 
 }
 
@@ -437,279 +437,117 @@ hr {
 
 /* My media quries START below*/
 
-@media (max-width: 500px) {
-    .containerone {
+@media (max-width: 400px) {
+    .containerone{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: space-between;
+        
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 28vh;
+    }
+
+    .two{
         width: 90%;
-        height: 60%;
+        margin-left: 10%;
     }
 }
 
-@media (max-width: 500px) {
-    nav {
+@media (max-width: 400px){
+    .containerthree{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        padding: 2% 10%;
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media(max-width: 500px) {
-    .one {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .two {
-        width: 70%;
-    }
-}
-
-@media (max-width: 500px) {
-    .three {
-        width: 90%;
-        font-size: 20px;
-        margin-right: 10%;
-    }
-}
-
-@media (max-width: 500px) {
-    .four {
-        display: none;
-    }
-}
-
-@media (max-width: 500px) {
-    .containerthree {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin-left: 5%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .five {
-    
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 100%;
-        margin: 5% 0;
-        padding: 3%;
-    }
-}
-
-@media (max-width: 500px) {
-    .six {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .containerfour {
-        width: 90%;
-        margin-left: 5%;
-    }
-}
-
-@media (max-width: 500px) {
-    .middle-img {
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    .containerfive {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 90%;
-        margin-left: 5%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .nine {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 100%;
-        margin: 5% 0;
-        padding: 3%;
-    }
-}
-
-@media (max-width: 500px) {
-    .eight {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 100%;
-        margin: 5% 0;
-        padding: 3%;
-    }
-}
-
-@media (max-width: 500px) {
-    .ten {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 100%;
-        margin: 5% 0;
-        padding: 3%;
-    }
-}
-
-@media (max-width: 500px) {
-    .containersix {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 90%;
-        margin: 5% 0;
-        padding: 3%;
-        margin-left: 5%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 500px) {
-    footer {
-        display: flex;
-        flex-direction: column;
-        font-size: 15px;
-        width: 90%;
-        margin: 5% 0;
-        padding: 3%;
-        margin-left: 5%;
-        text-align: center;
-    }
-}
-
-
-/*media at 800px*/
-
-@media (max-width: 800px) {
-    .containerone {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
         align-items: center;
+        width: 95%;
+    }
+    .five{
+        width: 80%;
+        margin-bottom: 3%;
+        padding: 5%;
+        border-right: none;
+        border-bottom: solid 2px black;
+
+
+        
+    }
+    .six{
+        width: 90%;
+
+
     }
 }
 
-@media (max-width: 800px) {
-    nav {
+@media(max-width: 400px){
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        width: 89%;
+        padding:3%;
+
+    }
+
+    .three{
         width: 100%;
-    }
-}
+        margin-left: 10%;
+ 
 
-@media (max-width: 800px) {
-    .two {
-        width: 50%;
-    }
-}
+        
 
-@media (max-width: 800px) {
-    .containertwo {
-        width: 93.5%;
     }
-}
 
-@media (max-width: 800px) {
-    .three {
-        width: 70%;
+    h1{
+        font-size: 3.2rem;
     }
-}
+    .four{
 
-@media (max-width: 800px) {
-    .four {
         display: none;
+
     }
 }
-
-@media (max-width: 800px) {
-    .containerthree {
-        display: flex;
-        justify-content: space-evenly;
-    }
-}
-
-@media (max-width: 800px) {
-    .five {
-        width: 40%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px) {
-    .six {
-        width: 40%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px) {
-    .containerfour {
+@media(max-width: 400px){
+    .containerfour{
         width: 100%;
-        text-align: center;
+        height: 30vh;
     }
-}
-
-@media (max-width: 800px) {
-    .middle-img {
+    .middle-img{
         width: 100%;
-        text-align: center;
     }
 }
 
-@media (max-width: 800px) {
-    .containerfive {
+
+
+
+@media(max-width:400px){
+    .containerfive{    
         display: flex;
-        justify-content: space-between;
-        width: 98%;
-        text-align: center;
+        flex-direction: column;
+        padding: 4%;
+        width: 92%;
+
+    }
+    .eight{
+        width: 90%;
+        padding: 4%;
+        border-right: none;
+        border-bottom:solid black 2px;
+
+    }
+
+    .nine{
+        width: 90%;
+        padding: 4%;
+        border-right: none;
+        border-bottom:solid black 2px;
+    }
+
+    .ten{
+        width: 90%;
+        padding: 4%;
+        border-right: none;
     }
 }
 
-@media (max-width: 800px) {
-    .eight {
-        width: 30%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px) {
-    .nine {
-        width: 30%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px) {
-    .ten {
-        width: 30%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 800px) {
-    hr {
-        margin: 0 1% 0 1%;
-    }
-}
