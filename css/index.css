@@ -437,7 +437,7 @@ hr {
 
 /* My media quries START below*/
 
-@media (max-width: 400px) {
+@media (max-width: 486px) {
     .containerone{
         display: flex;
         flex-direction: column-reverse;
@@ -449,6 +449,9 @@ hr {
         flex-direction: column;
         height: 28vh;
     }
+    a{
+        font-size: 1em;
+    }
 
     .two{
         width: 90%;
@@ -456,7 +459,7 @@ hr {
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 486px){
     .containerthree{
         display: flex;
         flex-direction: column;
@@ -481,18 +484,22 @@ hr {
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 486px){
     .mainContainer{
         display: flex;
         flex-direction: column;
+        align-items: center;
         width: 89%;
         padding:3%;
+        font-size: em;
 
+    }
+    h2{
+        font-size: 1.2em;
     }
 
     .three{
         width: 100%;
-        margin-left: 10%;
  
 
         
@@ -500,7 +507,7 @@ hr {
     }
 
     h1{
-        font-size: 3.2rem;
+        font-size: 3em;
     }
     .four{
 
@@ -508,7 +515,7 @@ hr {
 
     }
 }
-@media(max-width: 400px){
+@media(max-width: 486px){
     .containerfour{
         width: 100%;
         height: 30vh;
@@ -521,7 +528,7 @@ hr {
 
 
 
-@media(max-width:400px){
+@media(max-width:486px){
     .containerfive{    
         display: flex;
         flex-direction: column;
@@ -551,3 +558,36 @@ hr {
     }
 }
 
+@media(max-width: 854px){
+    .containerone{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .one{
+        width: 90%;
+    }
+
+    .two{
+        width: 90%;
+    }
+}
+
+@media(max-width: 854px){
+
+    .mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containertwo{
+
+    }
+    .three{
+        width: 100%;
+    }
+    .four{
+        display: none;
+    }
+}

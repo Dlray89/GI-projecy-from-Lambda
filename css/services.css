@@ -303,3 +303,28 @@ hr{
     width: 92.2%;
     margin-left:5.1%;
 }
+
+@media(max-width: 1090px){
+    .containerone{
+        border: solid 2px red;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 98%;
+    }
+    .one{
+        border: solid 2px blue;
+    }
+    .two{
+        border: solid 2px green;
+        width: 90%;
+
+    }
+}
+
+@media(max-width: 1090px){
+    .containertwo{
+        border: solid 2px red;
+        justify-content: center;
+    }
+}
