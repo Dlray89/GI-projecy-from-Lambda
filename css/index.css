@@ -262,6 +262,7 @@ a {
     justify-content: space-around;
     align-items: center;
     margin: 5%;
+    margin-left: 10%;
 
 }
 
@@ -314,7 +315,8 @@ button:hover {
     align-items: center;
     width: 90%;
     margin: 1%;
-    padding:2%
+    padding:2%;
+  
 
 }
 .three {
